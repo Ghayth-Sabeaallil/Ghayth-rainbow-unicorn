@@ -7,3 +7,10 @@ let obj1: object = {
   married: true,
 };
 console.log(obj1);
+
+function hej(x: string): string {
+  return `Hej ${x}`;
+}
+animel.forEach((element) => {
+  console.log(hej(element));
+});
